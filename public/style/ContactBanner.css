@@ -1,0 +1,53 @@
+#contact-banner{
+    background-color: grey;
+    background-image: url('../assets/img/banner_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    /*padding-bottom: 50px;*/
+
+}
+
+#contact-banner h2, #contact-banner p{
+    color : white;
+    text-align: center;
+}
+
+#contact-banner > .sub-section-2{
+    margin-top: 20px;
+    padding-bottom: 30px;
+    display : grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-column-gap: 10px;
+}
+
+#contact-banner > .sub-section-2 > .col-2{
+    grid-column: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    /*align flex items along the main axis*/
+    justify-content: center;
+    /*align flex items along the cross axis*/
+    align-items: center;
+}
+
+#contact-banner > .sub-section-2 > .col-2 > .icon-button{
+    
+    margin: 10px;
+    border: solid 2px transparent;
+
+}
+
+#contact-banner > .sub-section-2 > .col-2 > .icon-button:hover{
+    border: solid white 2px;    
+}
+
+#contact-banner > .sub-section-2 > .col-2 > .icon-button > i{
+    color: white;   
+    vertical-align: middle;
+    padding: 1.0em;
+    font-size : 20px;
+    text-align: center;
+}
+
