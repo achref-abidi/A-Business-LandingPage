@@ -1,14 +1,16 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
-const path = require('path')
+var express = require('express');
+var app = express();
+const port = 3000
 
-app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/views/index.html")
-});
 
-app.use('/public', express.static(path.join(__dirname, 'public')));
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + "/views/index.html")
+})
 
-app.listen(PORT, () => {
-    console.log(`App listening at http://localhost:${PORT}`);
+app.use(express.static(__dirname + "/public/style"))
+
+
+
+app.listen(port, () => {
+  console.log(`app listening at http://localhost:${port}`)
 })
