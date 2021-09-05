@@ -1,12 +1,12 @@
 {
-  "name": "ths_v3",
+  "name": "ths",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "myApp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node myApp.js"
   },
-  "author": "",
+  "author": "Achref abidi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
