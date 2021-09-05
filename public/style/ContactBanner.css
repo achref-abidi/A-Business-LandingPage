@@ -5,8 +5,6 @@
     background-position: center;
     background-size: cover;
     background-blend-mode: darken;
-    /*padding-bottom: 50px;*/
-
 }
 
 #contact-banner h2, #contact-banner p{
@@ -33,10 +31,8 @@
 }
 
 #contact-banner > .sub-section-2 > .col-2 > .icon-button{
-    
     margin: 10px;
     border: solid 2px transparent;
-
 }
 
 #contact-banner > .sub-section-2 > .col-2 > .icon-button:hover{

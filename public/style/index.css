@@ -27,7 +27,9 @@ nav li{
     text-transform: uppercase;
     letter-spacing: 2.1px;
 }
-
+/***
+    Footer section
+***/
 .footer-icon{
     color: #C7C7C7;
 }
@@ -47,4 +49,28 @@ nav li{
 
 #footer > .copyright{
     color : #C7C7C7;
+}
+/***
+    About section
+***/
+#about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#about .col-2{
+    width: 500px;
+}
+
+#about .col-1{
+    padding-right: 20px;
+    width: 500px;
+}
+
+#about img{
+    width: 100%;
+    margin-top: 25px;
 }
